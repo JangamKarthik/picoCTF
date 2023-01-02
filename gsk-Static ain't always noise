@@ -1,0 +1,10 @@
+so first copy the link address by right clicking on static?
+now you have the link to the file and you have to download it so use the command wget
+type- wget https://mercury.picoctf.net/static/ff4e569d6b49b92d090796d4631a2577/static
+this will download the file and save it in the current directory and the file name in my case was static.1
+now we need to view the contents of the file so i will use the strings command to print all of it
+type- strings static.1
+now some random text will appear on the screen so in order to get our flag we need to search for our flag so i will be using grep command for doing that task
+type- strings static.1|grep -i pico
+and with this i got the flag in my case it was
+picoCTF{d15a5m_t34s3r_ccb2b43e}
