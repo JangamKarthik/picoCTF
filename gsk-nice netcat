@@ -1,0 +1,11 @@
+net cat is used for connecting our webshell to a address via a port
+so to use netcat the following command and the format is used
+nc address portnumber
+so in my case it was given as
+nc mercury.picoctf.net 22902
+so directly copy this and
+type- nc mercury.picoctf.net 22902             //on webshell
+now this results in connecting you with the given address then some random numbers get printed on your screen
+then i thought that these numbers might be ascii values so i went to this website for converting ascii values into normal text- https://codebeautify.org/ascii-to-text
+now i just copy pasted the data and i got the flag in my case it was
+picoCTF{g00d_k1tty!_n1c3_k1tty!_d3dfd6df}
