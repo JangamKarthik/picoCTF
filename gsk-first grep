@@ -1,0 +1,12 @@
+// Can you find the flag in file? This would be really tedious to look through manually, something tells me there is a better way.
+first copy the link address of the file by right clicking on it
+now use wget command on the webshell in order to download that file 
+type- wget https://jupiter.challenges.picoctf.org/static/515f19f3612bfd97cd3f0c0ba32bd864/file
+the file name in my case was file.1
+so in order to acces the file contents i wil use the strings command 
+type- strings file.1
+this will result in a random text on your webshell now need to filter this text and get the required flag 
+so inorder to filter i will be using grep command
+type- strings file.1|grep -i pico         //since our flag starts with pico 
+this filtered out the text and gave me my flag in my case it was
+picoCTF{grep_is_good_to_find_things_5af9d829}
