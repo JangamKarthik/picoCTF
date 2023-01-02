@@ -1,0 +1,10 @@
+copy the link address by right clicking on the file given iin the question
+use wget command for downloading the file
+type- wget https://mercury.picoctf.net/static/a00f554b16385d9970dae424f66ee1ab/warm
+in my case the file name was warm.1 so to view the contents of the file use the followings command
+I used strings because it prints all the readable strings in the file
+type- strings warm.1
+it will result in a lot of text on your web shell so in ordr to filter out we need to use grep command
+type- strings warm.1|grep -i pico
+here after i we wrote pico because the flag starts with pico after doing this we get our flag in my case it was
+picoCTF{b1scu1ts_4nd_gr4vy_18788aaa}
