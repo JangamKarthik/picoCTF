@@ -1,0 +1,11 @@
+to start off we need to copy the link address for the given file by rightclicking on the file
+after doing this i used wget command for downloading this file on to my vm through the webshell
+type- wget https://jupiter.challenges.picoctf.org/static/f209a32253affb6f547a585649ba4fda/the_numbers.png
+after the file downloaded the file was saved on my vm in the name of the_numbers.png.1
+so now we need to read the contents of the file so for doing this task i will be using the command strings 
+now I directly viewed it on my pc by using the media app
+these were the numbers listed in the picture-16 9 3 15 3 20 6 { 20 8 5 14 21 13 2 5 18 19 13 1 19 15 14 } 
+now this looked like picoctf flag format and this turns out to be substitution cipher since 16=p 9=i and so on ....
+i used this site for decoding the substitution cipher - https://www.dcode.fr/letter-number-cipher
+this gave me my required flag in my case it was 
+picoCTF{THENUMBERSMASON}
