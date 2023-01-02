@@ -1,0 +1,6 @@
+// What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
+here we have a data that makes no sense -bDNhcm5fdGgzX3IwcDM1 probably its because it is encrypted 
+so in order tho decrypt it i used https://gchq.github.io/CyberChef/
+after decryption it was -l3arn_th3_r0p35
+so this is our flag data now rewrite this in our picoCTF flag format and the final flag is 
+picoCTF{l3arn_th3_r0p35}
