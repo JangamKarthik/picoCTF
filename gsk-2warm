@@ -1,0 +1,5 @@
+// Can you convert the number 42 (base 10) to binary (base 2)?
+so i used https://www.rapidtables.com/convert/number/hex-to-decimal.html for converting 42 to base 2(binary)
+so 42 in binary would be 101010
+so the required flag is
+picoCTF{101010}
