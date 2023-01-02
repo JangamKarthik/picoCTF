@@ -1,0 +1,7 @@
+Description
+Using netcat (nc) is going to be pretty important. Can you connect to jupiter.challenges.picoctf.org at port 41120 to get the flag?
+so there is an address to connect and a port to connect through
+now in order to connect we use a command netcat -nc address port
+type- nc jupiter.challenges.picoctf.org 41120
+this will give us the required flag in may it was
+picoCTF{nEtCat_Mast3ry_3214be47}
