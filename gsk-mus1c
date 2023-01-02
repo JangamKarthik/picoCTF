@@ -1,0 +1,14 @@
+I wrote you a song. Put it in the picoCTF{} flag format.
+so first we need to copy the link address for the file in order to download that 
+and for downloading it through the webshell i will use the command wget
+type- wget https://jupiter.challenges.picoctf.org/static/0e21e3ca94779f56b122296424e879f8/lyrics.txt
+the downloaded file in my case was lyrics.txt.2
+so in order to view the contents of this file i will use the command strings
+type- strings lyrics.txt.1 
+by doing this you will get a lot of text on your screen if we observe carefully we can figure that out as lyrics
+and in one of the hints it mentioned rockstar anfer searching a lot of stuff on the intrnet i got this rockstar cipher and decrypted in to get our flag-https://codewithrockstar.com/online
+now after decoding that i got some random numbers
+so i thought of decoding these ascii values into normal text by using -https://www.dcode.fr/ascii-code
+now i got the flag body as rrrocknrn0113r
+so the required flag in my case is
+picoCTF{rrrocknrn0113r}
