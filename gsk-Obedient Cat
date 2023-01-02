@@ -1,0 +1,7 @@
+//This file has a flag in plain sight (aka "in-the-clear"). Download flag.
+use wget command to download the flag
+type-wget https://mercury.picoctf.net/static/fb851c1858cc762bd4eed569013d7f00/flag
+this will download the file now to get the content of the file use command cat
+type-cat flag     //since flag was the name of the file in my case 
+// now you will get the flag in the file im my case flag was
+picoCTF{s4n1ty_v3r1f13d_28e8376d}
