@@ -1,0 +1,13 @@
+// In RSA, a small e value can be problematic, but what about N? Can you decrypt this? values
+in this i found a new thing that is RSA now I googled what a RSA is and it turns out to be a cipher
+now let us take a look at that file
+to download it first copy the path to that file by right clicking on the file and use wget command on the webshell
+type- wget https://mercury.picoctf.net/static/38f30029ab93478310e906d3d084a4c1/values
+now the file has been downloaded in my case the file name was values.1
+now in order to read the file i used strings commmand
+type- strings values.1
+this didnot work for some reason so i used another command which is widely used for reading the file contents that is known as cat command
+type- cat values.1
+now i got some value of n c and e then i went back to rsa cipher decoder -https://www.dcode.fr/rsa-cipher now paste the values of n c and e
+now after decryption i got my value for the required challenge in my case that was 
+picoCTF{sma11_N_n0_g0od_23540368}
