@@ -1,0 +1,10 @@
+// Can you find the flag in file without running it?
+we need to download that file so to download that i will use the wget command before using i will copy the link address
+type- wget https://jupiter.challenges.picoctf.org/static/fae9ac5267cd6e44124e559b901df177/strings
+now we will get the downloaded file in my case it was strings.1
+so now to access the contents in this file i will use the command strings
+type- strings strings.1
+this will result in printing a lot of data on your webshell so we need to filter that out so i will use the grep command
+type- strings strings.1|grep -i pico   // since our flag starts with pico
+this will filter that file and give the flag in my case it was
+picoCTF{5tRIng5_1T_7f766a23}
