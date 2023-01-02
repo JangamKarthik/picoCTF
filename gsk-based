@@ -1,0 +1,22 @@
+//To get truly 1337, you must understand different data encodings, such as hexadecimal or binary. Can you get the flag from this program to prove you are on the way to becoming 1337? Connect with nc jupiter.challenges.picoctf.org 29956.
+so we are given with an address and a port  to connect with so i will do that using net at command
+type- nc  nc jupiter.challenges.picoctf.org 29956
+so after connecting there were multiple encrypted datas which i had to decrypted and givem that as an input in order to get the flag
+i used-https://gchq.github.io/CyberChef/ for decrypting 
+and the whole proccess looked like this
+Please give the 01110011 01110100 01110010 01100101 01100101 01110100 as a word.
+...
+you have 45 seconds.....
+
+Input:
+street
+Please give me the  163 165 142 155 141 162 151 156 145 as a word.
+Input:
+submarine
+Please give me the 6c696d65 as a word.
+Input:
+lime
+You've beaten the challenge
+Flag: picoCTF{learning_about_converting_values_b375bb16}
+so the required flag in my case was 
+picoCTF{learning_about_converting_values_b375bb16}
