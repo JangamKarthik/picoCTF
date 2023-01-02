@@ -1,0 +1,7 @@
+If I told you a word started with 0x70 in hexadecimal, what would it start with in ASCII?
+so given is a hexadecimal number so convert that into a decimal first
+i used this site for converting - https://www.rapidtables.com/convert/number/hex-to-decimal.html
+and the number is 112 
+now we need the 112 ascii that is lowercase p
+so our required flag would be
+picoCTF{p}
