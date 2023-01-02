@@ -1,0 +1,6 @@
+// What is 0x3D (base 16) in decimal (base 10)?
+so base 16 is headecimal and base 10 is decimal 
+so again use https://www.rapidtables.com/convert/number/hex-to-decimal.html
+so we get out decimal number =61
+so our flag would be
+picoCTF{61}
