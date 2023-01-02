@@ -1,0 +1,10 @@
+// Sometimes you need to handle process data outside of a file. Can you find a way to keep the output from this program and search for the flag? Connect to jupiter.challenges.picoctf.org 4427.
+here they have given an address and a port to connect so for doing the given task i used netcat command
+type- nc jupiter.challenges.picoctf.org 4427
+you have some random text on your webshell now after connecting 
+now we need to filter out the text and get our flag so i will use grep command to filter out this 
+but the challenge here is we donot have a file to use grep still we can use this grep commad to get the job done but to pass the argument we need to use the following format 
+since we are grepping the connection so 
+type- nc jupiter.challenges.picoctf.org 4427|grep pico             //since our flag starts with pico 
+this will give us our required flag
+picoCTF{digital_plumb3r_5ea1fbd7}
