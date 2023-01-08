@@ -7,3 +7,5 @@ now answer the question i was asked 17 in binary
 i used this site for converting this-https://www.rapidtables.com/convert/number/decimal-to-binary.html
 now submit the answer 
 boom you got your flag
+in y case the flag was
+picoCTF{4ll_y0ur_b4535_722f6b39}
