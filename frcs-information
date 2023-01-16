@@ -1,0 +1,19 @@
+description-
+Files can always be changed in a secret way. Can you find the flag? cat.jpg
+okay here I was confused the description is not enough to understand the question 
+but we had a jpg to download and proceed so for doing that first what i did was downloadig the file.
+to download it through the web shell i used the command wget and pasted the url of it
+type- wget https://mercury.picoctf.net/static/7cf6a33f90deeeac5c73407a1bdc99b6/cat.jpg
+now after downloading this image i opened it and looked for the flag it
+i didn't find the flag in  the image so i thought of using the hints given
+so i opened the first one it says Look at the details of the file
+so there is something called as meta data which is known for providing the data for a given data like say i have a image i need its meta data
+then i shall provide the image to a metadata extractor which will give me its corresponding data
+then i found this metadata exctracor website on the web it was - https://www.metadata2go.com
+here i uploaded the cat.png file and it gave me the metadata for the following 
+there i saw the license it was a really long string of characters so I thought of decoding it 
+so i used - https://gchq.github.io/CyberChef/
+then i pasted the license then i got my flag after decoding
+the license was- cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9
+the flag was- picoCTF{the_m3tadata_1s_modified}
+level up!
