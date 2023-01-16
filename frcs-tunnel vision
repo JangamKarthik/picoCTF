@@ -1,0 +1,28 @@
+lets get started by downloading the given file
+now after downloading try to open the file, it doesn't open 
+so atfirst i thought it should a hexdump file so i tried opening it on a hex editor and my guess was correct it was a hex file
+so for editing at stuff for a hexdump file i used this site- https://hexed.it/
+here i took a look at the file content there i found that it was a bitmap file coz it was written BM over there
+so i changed the extention of the file to .bmp
+now the problem is it is not in the actual bmp format if you carefully observe there is BA D0 written over to place to fix this issue
+I took an actual bmp file and modified my current one with it
+I had to change 36 00 and 28 00
+then i saved the file and opened it
+it says it is not a flag sorry.
+and if we carefully see the image it looks like it is not the complete image
+and it was cropped 
+so i ran exiftool on this bmp file to find the properties and check its height and width
+type- exiftool tunn3l_v1s10n.bmp
+this gave me my bmp files height and width now what i did was i just tried to resize this images height and get the actual image
+we need python for this so 
+type- python
+now type- hex(1134)               //this is because it was the height of the image it was figured out after running exiftool on the file
+after running this command i got 0x46e   this indicates the panel which is responsible for the height
+now i tried resizing it was a trail and error and i finally got the perfect height which was 850
+so now type the following command
+type- hex(850)
+this resulted in giving me the required height '0x352' now replace it with the original height tile 
+!!!! always remember to write the 0x352 in the revere order
+now save the edit and view the file once again
+boom we got our flag in my case it was
+picoCTF{qu1t3_a_v13w_2020}
