@@ -1,0 +1,11 @@
+description:
+This garden contains more than it seems.
+so first things first straight away download that file
+it is a jpg file
+now we dont have any flag in that image 
+so i got back and checked the hint to proceed further 
+the hint says- What is a hex editor?
+so as soon as i saw this i got that it has something to do with the hex editor 
+so in my case i used an online hex editor-https://hexed.it/
+for inspection i was scrolling through the data and in the end of the data on the RHS i found our required flag
+im my case it was- picoCTF{more_than_m33ts_the_3y33dd2eEF5}
